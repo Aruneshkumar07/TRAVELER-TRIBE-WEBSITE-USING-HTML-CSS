@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (min-width:375px) and (max-width:2000px){
+        body{
+            margin: 0px;
+            color: aliceblue;
+            
+        }
+        body::before{
+            content:"";
+            position:fixed;
+            height:100%;
+            width:100%;
+            background-image: url(https://www.forbes.com/advisor/wp-content/uploads/2023/07/travel-insurance-woman-on-boat.jpeg.jpg);
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index:-1;            
+            filter: blur(15px);
+        }
+        #first{
+           background-color: rgba(77, 132, 98, 0.864);
+            width: 100%;
+            display: flex;
+            position: fixed;
+            top: 0;
+            color: aliceblue;
+        }
+        #fir{
+            float: right;
+            flex: 4; 
+            padding-top: 20px; 
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+            color: white;
+        }
+        #img1{
+            height: 70px;
+            /* height: 60px; */
+        }
+        #img2{
+            height: 100%;
+            width: 100%;
+            position: fixed;
+        }
+        #content{
+            font-size:40px;
+            color: black;
+            color: aliceblue;
+        }
+        #second{
+            text-align: center;
+            margin:100px;
+            /* padding:200p 400px; */
+            background-color:rgba(77, 132, 98, 0.375);
+            color: aliceblue;
+ 
+        }
+        #TITLE{
+            letter-spacing: 30px;
+            text-align: center;
+            font-size: 75px;
+             padding-top:50px;
+        }
+        #third{
+            text-align:center;
+            font-size:40px;
+            /* padding:200p 600px; */
+            margin: 0px 100px;
+            background-color: rgba(77, 132, 98, 0.368);
+        }
+        button{
+            margin-left:650px;
+            background-color: aliceblue;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            padding: 10px 30px;
+            border: none;
+            transition: 0.3s;
+        }
+        button:hover{
+            background-color: rgb(58, 181, 148);
+            padding:15px 30px;
+            box-shadow: 20px 20px 60px white;
+        }
+        #but1{
+            text-decoration: none; font-size: 10px;color: black;
+        }
+        #head1{
+            width: 60%;
+            font-size: 20px;
+            padding-left: 80px;
+            padding-top: 5px;
+        }  
+        #fir:hover{
+            background-color: rgba(9, 75, 18, 0.755);
+            color: aliceblue;
+        }  
+        footer{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            font-size: 10px;
+            background-color: rgb(12, 35, 12);
+        } 
+    }
+
+    </style>
+</head>
+<body>
+     <div id="first">
+        <img id="img1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYXwr2SW1C55pD3R4CTU351S2PVGrK8RZkIQ&usqp=CAU" alt="">
+        <h2  id="head1">Traveler Tribe</h2>
+        <a id="fir" href="index.html">HOME</a>
+        <a id="fir" href="aboutus.html">About Us</a>
+        <a id="fir"href="contact.html">Contact Us</a>
+    </div>
+    <footer>
+        <p>
+            &copy;2024-2025
+        </p>
+    </footer>
+    <h1 ID="TITLE">TRAVELER TRIBE</h1>
+    <div id="second">
+        <!-- <img id="img2" src="https://www.forbes.com/advisor/wp-content/uploads/2023/07/travel-insurance-woman-on-boat.jpeg.jpg" alt=""> -->
+        <h1 id="content">Welcome to TravelerTribe!</h1><br><br>
+        <h3 id="content">Discover Your Next Adventure</h3><br><br>
+        <p id="content">At TravelsBooking, we're passionate about connecting you with unforgettable travel experiences. Whether you're planning a relaxing beach getaway, an adventurous trek through the mountains, or a culturally enriching city tour, we've got you covered. With our user-friendly platform and extensive range of destinations and activities, finding and booking your dream trip has never been easier.
+
+        </p>
+    </div>
+    <div id="third">
+        <h1 style="font-size: 40px;">WHY US?</h1>
+        <p>Easy Booking Process: Our streamlined booking system ensures a hassle-free experience from start to finish.</p>
+        <p>Wide Range of Options: Explore a diverse selection of destinations worldwide, catering to every type of traveler.</p>
+        <p>Best Prices Guaranteed: Enjoy competitive pricing and exclusive deals on flights, hotels, tours, and more.</p>
+        <p>Expert Advice: Our travel experts are here to assist you with personalized recommendations and tips.</p>
+        <p>Secure and Reliable: Book with confidence knowing that your transactions are safe and secure.</p>
+    </div>
+    <button><a id="but1"  href="aboutus.html">READ MORE</a></button>
+
+    
+</body>
+</html>
